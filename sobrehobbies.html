@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+
+<style>
+    .container {
+        width: 100%;
+        height: 100%;
+        margin-top: 0.8rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        font-family: arial;
+    }
+
+    .container-nav {
+        width: 100%;
+        margin-top: 6.5rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        font-family: arial;
+    }
+
+    .container-nav-perfil {
+        background-color: #242424;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+        border-radius: 1.2rem;
+        width: auto;
+        height: auto;
+    }
+
+    .navegacao-perfil {
+        list-style: none;
+        display: flex;
+    }
+
+    .navegacao-perfil li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 1.7rem;
+        border-radius: 0.9rem;
+        margin: 0.35rem;
+        transition: 200ms;
+    }
+
+    .navegacao-perfil li:hover {
+        background-color: rgba(255, 255, 255, 0.260);
+        transition: 200ms;
+
+    }
+
+    .navegacao-perfil li a {
+        text-decoration: none;
+        color: rgb(199, 199, 199);
+        margin: 10px;
+    }
+
+    .container-perfil {
+        width: 100%;
+        height: 100%;
+        padding-top: 0.5rem;
+        padding-bottom: .8rem;
+
+        background-color: #2a2a2a;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container-perfil h2 {
+        margin-bottom: 0.9rem;
+        color: #ffffff;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 2.5rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .container-perfil p {
+        width: 48rem;
+        color: #ffffff;
+        margin-bottom: 1.2rem;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+    }
+
+    .container-perfil img {
+        width: 15.5rem;
+        height: auto;
+        border-radius: 0.2rem;
+        margin-top: 1.5rem;
+        padding: 2px;
+
+        background: linear-gradient(360deg, #1c9ee4, #0a415f, #aee3ff, #004265, #1c9ee4);
+    }
+</style>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-bg">
+            <div class="navbar-logo">
+                <a href="index.html">
+                    <img src="assets/logo/Logo.png">
+                    <p class="roboto-mono">MarcosRoaJr</p>
+                </a>
+            </div>
+            <div class="navbar-redes" style="width: 12rem;">
+                <ul class="aba-nav">
+                    <li class="navegacao-redes"><a href="" title="Instagram"><i class="bi bi-instagram"></i></a></li>
+                    <li class="navegacao-redes"><a href="" title="GitHub"><i class="bi bi-github"></i></a></li>
+                    <li class="navegacao-redes"><a href="" title="Linkedin"><i class="bi bi-linkedin"></i></a></li>
+                    <li class="navegacao-redes"><a href="index.html" title="Pagina Inicial"><i class="bi bi-house-fill"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-nav">
+        <div class="container-nav-perfil">
+            <ul class="navegacao-perfil bebas-neue-regular">
+                <li><a href="sobremim.html">Sobre mim</a></li>
+                <li style="background-color: rgba(255, 255, 255, 0.260);"><a
+                        href="sobrehobbies.html">Hobbies</a></li>
+                <li><a href="sobrecontatos.html">Contatos</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <section class="container-perfil">
+                <h2>Hobbies</h2>
+                <p>Apesar de ter poucos hobbies, um deles se tornou especialmente significativo para mim: a Fórmula 1.
+                </p>
+
+                <p>Meu interesse pelo automobilismo começou em 2025, quase por acaso. Ao assistir à série
+                    <em>Senna</em>, da
+                    Netflix, fui completamente absorvido pela trajetória de Ayrton Senna. A cada episódio, me sentia
+                    mais
+                    conectado com sua história, sua genialidade nas pistas e sua mentalidade determinada. Foi esse
+                    mergulho
+                    na vida de Senna que me levou a assistir às corridas reais do campeonato atual. Sem perceber, já
+                    estava
+                    estudando regras, conhecendo equipes, analisando estratégias e entendendo os bastidores do esporte.
+                </p>
+
+                <p>Nesse processo, me tornei fã de Max Verstappen, um piloto que admiro pela sua precisão, agressividade
+                    e
+                    consistência. Seu estilo de pilotagem meticuloso, aliado a um temperamento competitivo, representa
+                    algo
+                    maior do que apenas vencer corridas. Ele mostra que, mesmo em situações adversas, é possível
+                    entregar
+                    desempenho de alto nível com foco, garra e ambição. São características que admiro não só em
+                    pilotos,
+                    mas também em profissionais de qualquer área. No caso dele, são qualidades que o levaram a se tornar
+                    tetracampeão mundial.</p>
+
+                <p>Além da Fórmula 1, também tenho interesse em séries e documentários baseados em histórias reais.
+                    Gosto
+                    especialmente daqueles que envolvem tecnologia, superação e estratégia, como <em>Tetris</em>,
+                    <em>Dirigir para Viver</em> e o próprio <em>Senna</em>. Esses conteúdos me inspiram porque retratam
+                    jornadas intensas e transformadoras, que dialogam diretamente com a minha própria trajetória de
+                    aprendizado na programação.
+                </p>
+
+                <img src="assets/imagens/Imagem - Personagem Senna 3D.png" alt="">
+
+                <p style="margin-top: 3rem;">Os jogos sempre fizeram parte da minha vida de forma natural. Desde os
+                    clássicos mais simples até os
+                    títulos mais desafiadores, eles despertam em mim aquela mistura de curiosidade, foco e vontade de ir
+                    além.
+                </p>
+
+                <p>Gosto especialmente de RPGs que mergulham o jogador em mundos ricos e cheios de detalhes, como
+                    <strong>Elden Ring</strong> e <strong>Red Dead Redemption 2</strong>. Enquanto o primeiro me atrai
+                    pela
+                    dificuldade e liberdade de exploração, o segundo me impressiona pelo cuidado com cada detalhe, pela
+                    narrativa envolvente e pela imersão completa no universo do Velho Oeste.
+                </p>
+
+                <p>Também curto jogos mais competitivos, como <strong>Valorant</strong>, onde estratégia e precisão são
+                    essenciais a cada rodada. Eles exigem raciocínio rápido, atenção constante e capacidade de
+                    adaptação,
+                    habilidades que também fazem parte da vida de quem programa.
+                </p>
+
+                <p>Ao mesmo tempo, sou fã dos clássicos que marcaram época. Cresci jogando títulos como <strong>Super
+                        Mario
+                        World</strong>, <strong>Top Gear</strong> e <strong>Mario Kart</strong>, jogos que continuam
+                    sendo
+                    divertidos até hoje e mostram como boas ideias e mecânicas simples podem atravessar gerações.
+                </p>
+
+                <p>Adoro explorar também os jogos menores da Steam, que muitas vezes trazem experiências criativas, com
+                    propostas diferentes e inspiradoras. Esses jogos mostram que não é preciso um estúdio gigante para
+                    criar
+                    algo cativante, e isso conversa muito com a minha vontade de criar projetos próprios na programação.
+                </p>
+
+                <p>Para mim, jogar vai além da diversão. É observar como as mecânicas funcionam, como os desafios são
+                    construídos e como a experiência do jogador é guiada. Tudo isso me ajuda a pensar como desenvolvedor
+                    e
+                    também como alguém que busca criar soluções envolventes, criativas e bem pensadas.
+                </p>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>

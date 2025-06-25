@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+
+<style>
+    .container {
+        width: 100%;
+        margin-top: 1.5rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        font-family: arial;
+    }
+    .container-nav {
+        width: 100%;
+        margin-top: 6.5rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        font-family: arial;
+    }
+
+    .container-nav-perfil {
+        background-color: #242424;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+        border-radius: 1.2rem;
+        width: auto;
+        height: auto;
+    }
+
+    .navegacao-perfil {
+        list-style: none;
+        display: flex;
+    }
+
+    .navegacao-perfil li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 1.7rem;
+        border-radius: 0.9rem;
+        margin: 0.35rem;
+        transition: 200ms;
+    }
+
+    .navegacao-perfil li:hover {
+        background-color: rgba(255, 255, 255, 0.260);
+        transition: 200ms;
+
+    }
+
+    .navegacao-perfil li a {
+        text-decoration: none;
+        color: rgb(199, 199, 199);
+        margin: 10px;
+    }
+
+    .container-perfil {
+        width: 100%;
+        height: 100%;
+        padding-top: 0.5rem;
+        padding-bottom: .8rem;
+
+        background-color: #2a2a2a;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container-perfil h2 {
+        margin-bottom: 0.9rem;
+        color: #ffffff;
+        font-size: 2.5rem;
+        text-align: center;
+        margin-bottom: 2rem;
+        font-family: 'Bebas Neue', sans-serif;
+    }
+
+    .container-perfil h1 {
+        color: #ffffff;
+        font-family: 'Bebas Neue', sans-serif;
+        text-align: center;
+    }
+
+    .contatos-perfil {
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contatos-perfil p {
+        margin-bottom: 2rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .contatos-perfil a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .contatos-perfil a.botao-email {
+        width: 6rem;
+        background-color: #212121;
+        text-decoration: none;
+        color: white;
+        display: flex;
+        justify-content: center;
+        font-family: 'Bebas Neue', sans-serif;
+        border-radius: 0.2rem;
+    }
+
+    .container-fim {
+        background-color: rgb(87, 87, 87);
+        width: auto;
+
+        border-radius: 0.5rem;
+        padding: 2rem;
+        margin: 0.5rem;
+    }
+
+    .container-fim h1 {
+        margin: 0;
+        font-size: xx-large;
+        margin-bottom: 0.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container-fim p {
+        margin: 0;
+        font-size: larger;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+</style>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-bg">
+            <div class="navbar-logo">
+                <a href="index.html">
+                    <img src="assets/logo/Logo.png">
+                    <p class="roboto-mono">MarcosRoaJr</p>
+                </a>
+            </div>
+            <div class="navbar-redes" style="width: 12rem;">
+                <ul class="aba-nav">
+                    <li class="navegacao-redes"><a href="" title="Instagram"><i class="bi bi-instagram"></i></a></li>
+                    <li class="navegacao-redes"><a href="" title="GitHub"><i class="bi bi-github"></i></a></li>
+                    <li class="navegacao-redes"><a href="" title="Linkedin"><i class="bi bi-linkedin"></i></a></li>
+                    <li class="navegacao-redes"><a href="index.html" title="Pagina Inicial"><i
+                                class="bi bi-house-fill"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-nav">
+        <div class="container-nav-perfil">
+            <ul class="navegacao-perfil bebas-neue-regular">
+                <li><a href="sobremim.html">Sobre mim</a></li>
+                <li><a href="sobrehobbies.html">Hobbies</a></li>
+                <li style="background-color: rgba(255, 255, 255, 0.260);"><a href="sobrecontatos.html">Contatos</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <section class="container-perfil">
+                <div class="contatos-perfil">
+                    <h2>Contatos</h2>
+                    <h1>Email :</h1>
+                    <p>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=marcosroajr@gmail.com&su=Vi+seu+Portfolio&body=Oi%20Marcos,%20tudo%20bem?%20Vi%20seu%20portfolio!"
+                            target="_blank" class="botao-email">
+                            Enviar e-mail!
+                        </a><br>
+                        Marcosroajr@gmail.com
+                    </p>
+
+                    <h1>Linkedin :</h1>
+                    <p>
+                        <a href="https://www.linkedin.com/in/marcos-roa-junior/">
+                            https://www.linkedin.com/in/marcos-roa-junior/
+                        </a>
+                    </p>
+                    <h1>Instagram :</h1>
+                    <p>Perfil profissional em desenvolvimento!</p>
+                    <div class="container-fim">
+                        <h1>Obrigado por chegar até aqui!</h1>
+                        <p>Este portfólio é o meu primeiro projeto onde coloco em prática tudo o que venho aprendendo.
+                        </p>
+                        <p>me motiva ainda mais a continuar estudando, desenvolvendo ideias e compartilhando meus
+                            avanços.</p>
+                        <p>Sei que ainda há muito a evoluir, e estou animado com tudo o que ainda está por vir...</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+</body>
+
+</html>

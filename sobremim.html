@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+
+<style>
+    .container {
+        width: 100%;
+        margin-top: 1.5rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        font-family: arial;
+    }
+    .container-nav {
+        width: 100%;
+        margin-top: 6.5rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        font-family: arial;
+    }
+
+    .container-nav-perfil {
+        background-color: #242424;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: .5rem;
+        border-radius: 1.2rem;
+        width: auto;
+        height: auto;
+    }
+
+    .navegacao-perfil {
+        list-style: none;
+        display: flex;
+    }
+
+    .navegacao-perfil li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 1.7rem;
+        border-radius: 0.9rem;
+        margin: 0.35rem;
+        transition: 200ms;
+    }
+
+    .navegacao-perfil li:hover {
+        background-color: rgba(255, 255, 255, 0.260);
+        transition: 200ms;
+
+    }
+
+    .navegacao-perfil li a {
+        text-decoration: none;
+        color: rgb(199, 199, 199);
+        margin: 10px;
+    }
+
+    .container-perfil {
+        width: 100%;
+        height: 100%;
+        padding-top: 0.5rem;
+        padding-bottom: .8rem;
+
+        background-color: #2a2a2a;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container-perfil h2 {
+        margin-bottom: 0.9rem;
+        color: #ffffff;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 2.5rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .container-perfil p {
+        width: 45rem;
+        color: #ffffff;
+        margin-bottom: 1.2rem;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container-perfil img {
+        width: 10rem;
+        height: auto;
+        border-radius: 0.2rem;
+        margin-top: 3rem;
+        padding: 2px;
+
+        background: linear-gradient(360deg, #1c9ee4, #0a415f, #aee3ff, #004265, #1c9ee4);
+    }
+</style>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-bg">
+            <div class="navbar-logo">
+                <a href="index.html">
+                    <img src="assets/logo/Logo.png">
+                    <p class="roboto-mono">MarcosRoaJr</p>
+                </a>
+            </div>
+            <div class="navbar-redes" style="width: 12rem;">
+                <ul class="aba-nav">
+                    <li class="navegacao-redes"><a href="" title="Instagram"><i class="bi bi-instagram"></i></a></li>
+                    <li class="navegacao-redes"><a href="" title="GitHub"><i class="bi bi-github"></i></a></li>
+                    <li class="navegacao-redes"><a href="" title="Linkedin"><i class="bi bi-linkedin"></i></a></li>
+                    <li class="navegacao-redes"><a href="index.html" title="Pagina Inicial"><i class="bi bi-house-fill"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-nav">
+        <div class="container-nav-perfil">
+            <ul class="navegacao-perfil bebas-neue-regular">
+                <li style="background-color: rgba(255, 255, 255, 0.260);"><a href="sobremim.html">Sobre mim</a>
+                </li>
+                <li><a href="sobrehobbies.html">Hobbies</a></li>
+                <li><a href="sobrecontatos.html">Contatos</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <section class="container-perfil">
+                <h2>Sobre Mim</h2>
+                <p>Olá, sou o Marcos. Sou estudante de programação, entusiasta de tecnologia e apaixonado por aprender.
+                </p>
+                <p>Sempre fui movido pela curiosidade e pelas ideias que surgem no dia a dia. Gosto de observar
+                    problemas
+                    comuns e pensar em soluções simples, criativas e funcionais. Para isso, busco estudar de forma
+                    prática,
+                    desenvolvendo jogos, sites e pequenos projetos que transformam teoria em experiência real.</p>
+                <p>Minha afinidade com Python começou logo no início da minha jornada. Foi a primeira linguagem que
+                    conheci
+                    e, com o tempo, ela se tornou a base do meu raciocínio lógico e da minha evolução como
+                    desenvolvedor.
+                </p>
+                <p>Em 2024, iniciei minha graduação em Ciência da Computação, onde tive um contato mais estruturado com
+                    o
+                    universo da programação. Foi ali que descobri, de verdade, o prazer de escrever código, resolver
+                    problemas e criar experiências.</p>
+                <p>Desde então, sigo expandindo meus conhecimentos com tecnologias como Flask, JavaScript, Node.js e
+                    React,
+                    sempre guiado pela mesma curiosidade que me fez começar.</p>
+
+                <img src="assets/imagens/Imagem - Foto Pessoal.jpeg" alt="">
+
+                <p style="margin-top: 3rem;">Atualmente, tenho direcionado meus estudos para o <strong>desenvolvimento
+                        web</strong>, buscando unir
+                    front-end e back-end em projetos completos, interativos e bem estruturados. Gosto de ver uma ideia
+                    saindo do papel e ganhando vida na tela, com estilo, lógica e funcionalidade.
+                </p>
+
+                <p>Me considero uma pessoa autodidata, movida pela vontade de entender como as coisas funcionam. Aprendo
+                    muito <strong>experimentando, quebrando a cabeça, errando e corrigindo</strong>. Cada erro que
+                    encontro
+                    é uma chance de aprender algo novo, e é esse processo que mais me empolga.
+                </p>
+
+                <p>Também sou <strong>apaixonado por Fórmula 1</strong>. Além de ser um esporte cheio de emoção, ele me
+                    inspira pela combinação entre <strong>estratégia, precisão e tomada de decisões rápidas</strong>.
+                    Gosto
+                    de pensar que programar tem algo disso também. Pequenos ajustes fazem toda a diferença no resultado.
+                </p>
+
+                <p>Nas horas vagas, gosto de explorar ideias soltas, testar conceitos e transformar aprendizados em
+                    projetos. Já criei <strong>jogos simples, sites com interações personalizadas e automações</strong>
+                    que
+                    facilitaram meu dia a dia, tudo com o objetivo de aprender mais e consolidar o que estudo.
+                </p>
+
+                <p>Às vezes me cobro demais em relação aos meus projetos, o que me deixava travado em mostrar meus
+                    trabalhos. Criar este portfólio foi uma forma de lidar com isso. Agora uso meu
+                    <strong>GitHub</strong>
+                    para compartilhar estudos, experimentos e pequenos testes, enquanto deixo neste espaço os projetos
+                    que
+                    tenho mais orgulho, seja por conta própria ou como parte de algo maior.
+                </p>
+
+                <p>Meu objetivo é <strong>continuar crescendo como desenvolvedor</strong>, criando soluções úteis,
+                    intuitivas e com um bom acabamento visual. Gosto da ideia de estar sempre evoluindo, seja sozinho ou
+                    em
+                    equipe, sempre com a mesma curiosidade que me trouxe até aqui.
+                </p>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>

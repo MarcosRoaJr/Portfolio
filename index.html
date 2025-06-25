@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+
+<style>
+    .container {
+        height: 83vh;
+        width: 100%;
+        margin-top: 6.5rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        font-family: arial;
+    }
+
+    .container-apresentacao {
+        background-color: #00000050;
+        border-radius: 1rem;
+        width: auto;
+        height: 70%;
+        padding: 25px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        color: white;
+    }
+
+
+    .container-apresentacao img {
+        height: 89%;
+        width: auto;
+        background-color: rgb(32, 32, 32);
+        border-radius: .4rem;
+        box-shadow: 10px 10px 10px 10px, #ffffff;
+    }
+    .container-apresentacao img:hover{
+        box-shadow: 0px 0px 15px #0091ff5e;
+    }
+
+    .container-texto {
+        height: 100%;
+        max-width: 600px;
+        width: auto;
+        overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .container-texto p {
+        font-size: 1.3rem;
+        margin-top: 1rem;
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+        user-select: none;
+    }
+    hr.linha {
+        height: 4rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .container-visualizacao {
+        background-color: #0a0a0a;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 100%;
+        height: 100%;
+    }
+
+    .nav-pages {
+        background-color: #1E1E1E;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 1.5rem;
+        width: auto;
+        height: 2.5rem;
+        padding: 8px;
+        margin-top: 0.5rem;
+    }
+
+    .nav-pages li {
+        width: 9rem;
+        height: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-pages li:hover {
+        background-color: #2e2e2e;
+        border-radius: 1rem;
+        transition: 0.1s;
+    }
+
+    .nav-pages li a {
+        text-decoration: none;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        margin-left: 15px;
+        margin-right: 15px;
+
+        border-radius: 1rem;
+    }
+
+    .container-page {
+        width: 100%;
+        height: auto;
+    }
+
+    .container-projetos {
+        margin-top: 1.3rem;
+        width: 100%;
+        height: 100%vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .projetos {
+        border-radius: 0.5rem;
+        width: 50rem;
+        height: auto;
+        padding: 2rem;
+        margin-bottom: 10px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: grey;
+    }
+
+    .projetos img {
+        width: 15rem;
+        height: 15rem;
+        border-radius: .51rem;
+    }
+
+    .projeto-text {
+        width: 50%;
+        height: 15rem;
+
+        background-color: grey;
+        border-radius: 0.5rem;
+        padding: 10px;
+        margin-left: 5px;
+        font-size: 2rem;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    #projetos {
+        scroll-margin-top: 150px;
+    }
+</style>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-bg">
+            <div class="navbar-logo">
+                <a href="index.html">
+                    <img src="assets/logo/Logo.png">
+                    <p class="roboto-mono">MarcosRoaJr</p>
+                </a>
+            </div>
+            <div class="navbar-redes" style="width: 12rem;">
+                <ul class="aba-nav">
+                    <li class="navegacao-redes"><a href="" title="Instagram"><i class="bi bi-instagram"></i></a></li>
+                    <li class="navegacao-redes"><a href="" title="GitHub"><i class="bi bi-github"></i></a></li>
+                    <li class="navegacao-redes"><a href="" title="Linkedin"><i class="bi bi-linkedin"></i></a></li>
+                    <li class="navegacao-redes"><a href="index.html" title="Pagina Inicial"><i class="bi bi-house-fill"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="container-apresentacao">
+            <img src="assets/imagens/Imagem - Personagem 3D.png">
+            <div class="container-texto anima">
+                <p style="font-size: 2.5rem;" class="bebas-neue-regular">Olá Sou Marcos</p>
+                <p class="bebas-neue-regular">Eu sou estudante de programação e este portfólio é meu espaço para
+                    compartilhar quem eu sou, o que venho
+                    aprendendo e o que ando desenvolvendo. Aqui você vai encontrar meus projetos, minhas ideias e um
+                    pouco
+                    da minha jornada. <br>
+                    Atualmente, tenho conhecimento básico nas principais tecnologias, como Python, JavaScript e MySQL, e
+                    venho explorando outras ferramentas como Flask, Node.js e React para ampliar minhas habilidades.
+                </p>
+            </div>
+        </div>
+        <hr class="linha">
+        <p class="bebas-neue-regular">
+            Scroll Page
+        </p>
+    </div>
+    <div class="container-fundo-colorido">
+        <div class="container-visualizacao">
+            <ul class="nav-pages bebas-neue-regular">
+                <li><a href="sobremim.html" title="Sobre mim">Sobre mim</a></li>
+                <li><a href="#projetos" title="Veja meus projetos">Projetos</a></li>
+                <li><a href="novidades.html" title="Novidades">Novidades</a></li>
+            </ul>
+            <div class="container-page">
+                <div class="container-projetos" id="projetos">
+                    <div class="projetos">
+                        <i class="bi bi-gear-fill emoji" style="font-size: 10rem;"></i>
+                        <p class="projeto-text bebas-neue-regular">Em desenvolvimento . . .</p>
+                    </div>
+                    <div class="projetos">
+                        <img src="assets/imagens/Imagem - Sem projeto.png" alt="">
+                        <p class="projeto-text bebas-neue-regular">Nenhum projeto</p>
+                    </div>
+                    <div class="projetos">
+                        <img src="assets/imagens/Imagem - Sem projeto.png" alt="">
+                        <p class="projeto-text bebas-neue-regular">Nenhum projeto</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

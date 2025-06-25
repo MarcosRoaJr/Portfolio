@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1e1e1e;
+    color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.emoji {
+  animation: girar 2s infinite;
+}

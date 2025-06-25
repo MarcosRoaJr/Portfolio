@@ -1,0 +1,129 @@
+
+.navbar {
+    background: linear-gradient(135deg, #0099ff, #002843, #4e98c9, #92d3ff, #001e31);
+    height: 5.7rem;
+
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-bg {
+    background-color: #282828;
+
+    width: 100%;
+    padding-right: 1.5rem;
+    height: 4rem;
+    padding-top: 2.8rem;
+    padding-bottom: 2.8rem;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-nav {
+    background-color: #222222;
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+}
+
+.navbar-logo,
+.navbar-logo a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar-logo a,
+.navegacao-redes a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-logo img {
+    width: auto;
+    height: 8rem;
+}
+
+.aba-nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bi {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 10rem;
+    margin-right: .5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    transition: 0.6s ease;
+}
+
+.bi:hover {
+    font-size: 2.2rem;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.navegacao-nav {
+    background-color: grey;
+    border-radius: 0.5rem;
+    margin-right: 0.4rem;
+
+    height: auto;
+    padding: 0.3rem;
+}
+
+.navegacao-nav a {
+    color: #ffffff;
+    padding: 0.7rem;
+    height: 0.5rem;
+    font-size: 1.2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    transition: 0.6s;
+}
+
+.navegacao-nav a:hover {
+    font-size: 1.46rem;
+}
+
+.bi-instagram:hover {
+    background: linear-gradient(45deg, #833AB4, #FD1D1D, #F56040, #FFDC80);
+}
+
+.bi-github:hover {
+    background: linear-gradient(135deg, #0D1117, #161B22, #354256);
+}
+
+.bi-linkedin:hover {
+    background: linear-gradient(135deg, #0077B5, #3796b8, #00516e, #00A0DC);
+}
+
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-mono {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}

@@ -1,0 +1,8 @@
+/* CSS de navegações */
+@import url(navbar.css);
+
+/* CSS de reutilizações */
+@import url(reutilizaveis.css);
+
+/*animações do CSS*/
+@import url(animacao.css);
